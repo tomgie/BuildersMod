@@ -9,13 +9,13 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.OreBlock;
 import net.tomgie.buildersmod.Util;
 
-public class PalladiumOreBlock extends OreBlock implements PolymerTexturedBlock {
+public class DeepslatePalladiumOreBlock extends OreBlock implements PolymerTexturedBlock {
 
     private final BlockState blockState;
 
-    public PalladiumOreBlock(Settings settings) {
+    public DeepslatePalladiumOreBlock(Settings settings) {
         super(settings);
-        this.blockState = PolymerBlockResourceUtils.requestBlock(BlockModelType.FULL_BLOCK, PolymerBlockModel.of(Util.id("block/palladium_ore")));
+        this.blockState = PolymerBlockResourceUtils.requestBlock(BlockModelType.FULL_BLOCK, PolymerBlockModel.of(Util.id("block/deepslate_palladium_ore")));
     }
 
     @Override

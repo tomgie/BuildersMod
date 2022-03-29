@@ -13,13 +13,13 @@ import net.minecraft.item.Items;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.tomgie.buildersmod.Util;
 
-public class DeepslatePalladiumOreItem extends BlockItem implements PolymerItem {
+public class PalladiumOreItem extends BlockItem implements PolymerItem {
 
     private final PolymerModelData modelData;
 
-    public DeepslatePalladiumOreItem(Block block, Settings settings) {
+    public PalladiumOreItem(Block block, Settings settings) {
         super(block, settings);
-        this.modelData = PolymerRPUtils.requestModel(Items.PAPER, Util.id("item/deepslate_palladium_ore"));
+        this.modelData = PolymerRPUtils.requestModel(Items.PAPER, Util.id("item/palladium_ore"));
     }
 
     @Override
