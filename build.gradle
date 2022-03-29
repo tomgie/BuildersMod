@@ -22,6 +22,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	modImplementation "eu.pb4:polymer:${project.polymer_version}"
+	modImplementation "eu.pb4:polymer-blocks:${project.polymer_blocks_version}"
 }
 
 processResources {
