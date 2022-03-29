@@ -1,38 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "buildersmod",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Builders Mod",
+  "description": "A server-side mod used on the BCS Minecraft server seasons.",
   "authors": [
-    "Me!"
+    "Tomgie",
+    "Avexus",
+    "Seakat"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://tomgie.net/",
+    "sources": "https://github.com/tomgie/BuildersMod"
   },
-
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "icon": "assets/buildersmod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.tomgie.buildersmod.BuildersMod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
+  "mixins": [],
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
     "minecraft": "1.18.x",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": {}
 }
