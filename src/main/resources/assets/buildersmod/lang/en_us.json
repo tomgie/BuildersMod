@@ -1,4 +1,5 @@
 {
     "block.buildersmod.palladium_ore": "Palladium Ore",
-    "block.buildersmod.deepslate_palladium_ore": "Deepslate Palladium Ore"
+    "block.buildersmod.deepslate_palladium_ore": "Deepslate Palladium Ore",
+    "item.buildersmod.raw_palladium": "Raw Palladium"
 }

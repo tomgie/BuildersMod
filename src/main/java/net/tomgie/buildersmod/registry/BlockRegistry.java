@@ -7,13 +7,12 @@ import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.registry.Registry;
 import net.tomgie.buildersmod.Util;
-import net.tomgie.buildersmod.block.DeepslatePalladiumOreBlock;
-import net.tomgie.buildersmod.block.PalladiumOreBlock;
+import net.tomgie.buildersmod.block.PolymerOreBlock;
 
 public class BlockRegistry {
 
-    public static final Block PALLADIUM_ORE = new PalladiumOreBlock(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0f, 3.0f));
-    public static final Block DEEPSLATE_PALLADIUM_ORE = new DeepslatePalladiumOreBlock(FabricBlockSettings.copy(PALLADIUM_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5f, 3.0f).sounds(BlockSoundGroup.DEEPSLATE));
+    public static final Block PALLADIUM_ORE = new PolymerOreBlock(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0f, 3.0f), "palladium_ore");
+    public static final Block DEEPSLATE_PALLADIUM_ORE = new PolymerOreBlock(FabricBlockSettings.copy(PALLADIUM_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5f, 3.0f).sounds(BlockSoundGroup.DEEPSLATE), "deepslate_palladium_ore");
 
     public static void registerBlocks() {
         registerAndAdd("palladium_ore", PALLADIUM_ORE);

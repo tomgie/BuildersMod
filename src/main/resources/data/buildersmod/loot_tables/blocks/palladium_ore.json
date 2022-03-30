@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "buildersmod:palladium_ore"
+                    "name": "buildersmod:raw_palladium"
                 }
             ],
             "conditions": [
