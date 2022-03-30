@@ -7,16 +7,19 @@ import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.registry.Registry;
 import net.tomgie.buildersmod.Util;
+import net.tomgie.buildersmod.block.PolymerBlock;
 import net.tomgie.buildersmod.block.PolymerOreBlock;
 
 public class BlockRegistry {
 
     public static final Block PALLADIUM_ORE = new PolymerOreBlock(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0f, 3.0f), "palladium_ore");
     public static final Block DEEPSLATE_PALLADIUM_ORE = new PolymerOreBlock(FabricBlockSettings.copy(PALLADIUM_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5f, 3.0f).sounds(BlockSoundGroup.DEEPSLATE), "deepslate_palladium_ore");
+    public static final Block PALLADIUM_BLOCK = new PolymerBlock(FabricBlockSettings.of(Material.METAL).mapColor(MapColor.ORANGE).requiresTool().strength(5.0f, 6.0f), "palladium_block");
 
     public static void registerBlocks() {
         registerAndAdd("palladium_ore", PALLADIUM_ORE);
         registerAndAdd("deepslate_palladium_ore", DEEPSLATE_PALLADIUM_ORE);
+        registerAndAdd("palladium_block", PALLADIUM_BLOCK);
     }
 
     private static void registerAndAdd(String id, Block item) {
