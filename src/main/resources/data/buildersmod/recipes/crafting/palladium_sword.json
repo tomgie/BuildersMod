@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " P ",
+        " P ",
+        " S "
+    ],
+    "key": {
+        "P": {
+            "item": "buildersmod:palladium_ingot"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "buildersmod:palladium_sword"
+    }
+}

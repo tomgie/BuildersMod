@@ -2,5 +2,15 @@
     "block.buildersmod.palladium_ore": "Palladium Ore",
     "block.buildersmod.deepslate_palladium_ore": "Deepslate Palladium Ore",
     "item.buildersmod.raw_palladium": "Raw Palladium",
-    "item.buildersmod.palladium_ingot": "Palladium Ingot"
+    "item.buildersmod.palladium_ingot": "Palladium Ingot",
+    "block.buildersmod.palladium_block": "Palladium Block",
+    "item.buildersmod.palladium_helmet": "Palladium Helmet",
+    "item.buildersmod.palladium_chesetplate": "Palladium Chestplate",
+    "item.buildersmod.palladium_leggings": "Palladium Leggings",
+    "item.buildersmod.palladium_boots": "Palladium Boots",
+    "item.buildersmod.palladium_sword": "Palladium Sword",
+    "item.buildersmod.palladium_pickaxe": "Palladium Pickaxe",
+    "item.buildersmod.palladium_axe": "Palladium Axe",
+    "item.buildersmod.palladium_shovel": "Palladium Shovel",
+    "item.buildersmod.palladium_hoe": "Palladium Hoe"
 }
